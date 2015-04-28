@@ -1,0 +1,365 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        
+        
+        <META Name="keywords" Content="eten bestellen, pizza,  thuis bezorgen, bestellen, online bestellen, pizza bestellen, eten, eten bezorgen, eten thuis bezorgen, bezorgen, bezorgd, sushi, spareribs, shoarma, online eten, pizza online, online pizza, online pizza bestellen, pizza bezorgen, ">
+            <META name="description" Content="Online snel en makkelijk eten bestellen en laten bezorgen via  de online eten bestelsite. Online pizza bestellen, Chinees, Shoarma en chinees! Makkelijk eten bestellen vanuit je stoel.">
+                <title>Online eten en pizza bestellen: thuisbezorgd of afgehaald via besteljeeten.nl</title>
+                <link href="https://www.besteljeeten.nl/app/style/style.css" rel="stylesheet" type="text/css" />
+                
+                <!-- stylesheet ectra opties -->
+                <style type="text/css">
+                    #extraoptie {
+                        position: relative;
+                        width: 250px;
+                        
+                        z-index: 1;
+                        background-color: #FFFFFF;
+                        border:#000000 solid 1px;
+                        padding:20px;
+                        text-align:left;
+                    }
+                </style>
+                
+                
+                </head>
+    
+    <body onLoad="iLink()">
+        <!-- javascript functies -->
+        <script type="text/javascript">
+            function clearDefault(el) {
+                if (el.defaultValue==el.value) el.value = ""
+            }
+        </script>
+        
+        <script type="text/javascript" src="https://www.besteljeeten.nl/app/beheer/js/wz_tooltip.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+        <script  type="text/javascript">
+            jQuery.fn.fadeToggle = function(speed, easing, callback) {
+                return this.animate({opacity: 'toggle'}, speed, easing, callback);
+            };
+        
+        
+        <!-- productopties -->
+        
+        
+        $(document).ready(function() {
+                          $('#extraoptie').hide();
+                          $('span a.email, #extraoptie a.close').click(function() {
+                                                                       $("#extraoptie").fadeToggle('slow');
+                                                                       });
+                          });
+                          
+                          
+                          
+            </script>
+        
+        <table width="1000" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tr>
+                <td><a href="https://www.besteljeeten.nl/app/"><img src="https://www.besteljeeten.nl/app/assets/header.jpg" width="1000" height="373" border="0" /></a></td>
+            </tr>
+            <tr>
+                <td class="content" height="500" valign="top" ><table width="900" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr>
+                        <td >
+                            
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td height="430" class="zoekvlak" valign="top">      <form action="https://www.besteljeeten.nl/app/index/9/zoeken.html" method="post">
+                                        <table width="100%"  border="0" cellspacing="0" cellpadding="0" style="padding-top:235px; padding-left:200px;">
+                                            <tr>
+                                                <td width="190" valign="top"><input name="postcode" type="text" style="font-size:90px; border:#000000; background-color:#FFFFFF;  width:300px; height:90px;" value="0000"  onFocus="clearDefault(this, 'postcode', '');" onBlur="clearDefault(this, '', 'postcode');"  /></td>
+                                                <td valign="top" align="right" style="padding-right:35px; "><input name="submit" type="image" src="https://www.besteljeeten.nl/app/assets/button_vind.png" id="button" style="width:152; height:142;" /></td>
+                                            </tr>
+                                        </table>
+                                    </form>
+                                    <!-- --></td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:20px;"><span class="titel"></span>
+                                        
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td style=" padding-top:40px;" >
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td style=" font-size:35px; padding-top:20px;">
+                                                                <strong>Sorry, in jouw postcode hebben we nog geen restaurant aangesloten. Geef hier jouw favoriete restaurant op. </strong><br /><br />
+                                                                
+                                                                <script type="text/javascript">
+                                                                    
+                                                                    function geldigeInvoer() {
+                                                                        if(document.contact.naam.value.length == 0) {
+                                                                            alert("Gelieve de naam in te vullen.");
+                                                                            contact.naam.focus();
+                                                                            return false;
+                                                                        }
+                                                                        if(document.contact.email.value.length == 0) {
+                                                                            alert("Gelieve uw emailadres in te vullen.");
+                                                                            contact.email.focus();
+                                                                            return false;
+                                                                        }
+                                                                        if(document.contact.telefoon.value.length == 0) {
+                                                                            alert("Gelieve uw telefoonnummer in te vullen.");
+                                                                            contact.telefoon.focus();
+                                                                            return false;
+                                                                        }
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        return true;
+                                                                    }
+                                                                
+                                                                function verstuurFormulier() {
+                                                                    if(geldigeInvoer()) {
+                                                                        document.contact.submit();
+                                                                    }
+                                                                }
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                    </script>
+                                                                
+                                                                
+                                                                <form action="https://www.besteljeeten.nl/app/formulier/5/versturen/restaurantaanmelden.html" method="post" name="contact">
+                                                                    
+                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td width="350" height="22">Naam restaurant</td>
+                                                                            <td><input type="text" name="restaurant" id="restaurant" style="border:#CCCCCC solid 6px; font-size:35px;" /></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td height="22" >Plaats restaurant</td>
+                                                                            <td><input type="text" name="plaats" id="plaats" style="border:#CCCCCC solid 6px; font-size:35px;" /></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td height="22">Telefoon</td>
+                                                                            <td><input type="text" name="telefoon" id="telefoon" style="border:#CCCCCC solid 6px; font-size:35px;" /></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td height="22" >Uw naam</td>
+                                                                            <td><input type="text" name="naam" id="naam" style="border:#CCCCCC solid 6px; font-size:35px;" /></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td height="22">Bent u eigenaar:</td>
+                                                                            <td >
+                                                                                <input type="radio" name="eigenaar" id="eigenaar" value="ja" checked="checked" />
+                                                                                Ja
+                                                                                <input type="radio" name="eigenaar" id="eigenaar" value="nee" />
+                                                                                Nee
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td height="22">Email</td>
+                                                                            <td><input type="text" name="email" id="email" style="border:#CCCCCC solid 6px; font-size:35px;" /></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>
+                                                                                <input type="button" name="Button" value="Versturen" onClick="verstuurFormulier();" style="border:#CCCCCC solid 6px; background-color:#FFFFFF; color:#333333; font-size:35px;"/>    </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </form>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    <!-- overzicht later bestellen bij restaurants die landelijk bezorgen-->
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td colspan="3" style="cursor:pointer;" onclick="javascript:window.location='https://www.besteljeeten.nl/app/bestellen/9/bestellen/61/0/bestellen.html';">
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="126"  valign="top">
+                                                                            <table width="126" border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td height="81" style="background-color:#FFF;" align="center"><img src="https://www.besteljeeten.nl/restaurants/61.jpg"  width="273" /></td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                        <td valign="top">
+                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td  valign="top" style="padding-left:30px;">
+                                                                                        <strong style="font-size:45px;">AZ Barbecue & Gourmet Service</strong><br />
+                                                                                            Kronenbergweg 11<br />
+                                                                                            5976 NV  Sevenum
+                                                                                            </td>
+                                                                                            
+                                                                                            
+                                                                                            </tr>
+                                                                                            </table>
+                                                                                            </td>
+                                                                                            </tr>
+                                                                                            </table>
+                                                                                            </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                            <td colspan="3" style="border-bottom:#CCC solid 6px;"><p><em style="font-size:30px;">BBQ en Gourmet compleet -  -  - </em></p>
+                                                                                            
+                                                                                            
+                                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                                <tr>
+                                                                                                    <td><a href="https://www.besteljeeten.nl/app/bestellen/9/bestellen/61/0/bestellen.html"><img src="https://www.besteljeeten.nl/app/assets/button_bestellen.jpg" border="0" height="61" /></a><a href="https://www.besteljeeten.nl/app/bestellen/9/bestellen//0/bestellen.html"></a><br />
+                                                                                                        <br />                        vandaag voor 12:00 uur besteld binnen 1 dag en in huis<br /><br /></td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                            
+                                                                                            </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td colspan="3">&nbsp;</td>
+                                                                                </tr>
+                                                                            </table>
+                                                                            
+                                                                            
+                                                                            
+                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td colspan="3" style="cursor:pointer;" onclick="javascript:window.location='https://www.besteljeeten.nl/app/bestellen/9/bestellen/162/0/bestellen.html';">
+                                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tr>
+                                                                                                <td width="126"  valign="top">
+                                                                                                    <table width="126" border="0" cellspacing="0" cellpadding="0">
+                                                                                                        <tr>
+                                                                                                            <td height="81" style="background-color:#FFF;" align="center"><img src="https://www.besteljeeten.nl/restaurants/162.jpg"  width="273" /></td>
+                                                                                                        </tr>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                                <td valign="top">
+                                                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                                        <tr>
+                                                                                                            <td  valign="top" style="padding-left:30px;">
+                                                                                                                <strong style="font-size:45px;">Vishandel Theo van de Geest</strong><br />
+                                                                                                                Bijlmerplein 862<br />
+                                                                                                                1102 ME Amsterdam
+                                                                                                            </td>
+                                                                                                            
+                                                                                                            
+                                                                                                        </tr>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td colspan="3" style="border-bottom:#CCC solid 6px;"><p><em style="font-size:30px;">Visspecialiteiten - Sushi -  - </em></p>
+                                                                                        
+                                                                                        
+                                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tr>
+                                                                                                <td><a href="https://www.besteljeeten.nl/app/bestellen/9/bestellen/162/0/bestellen.html"><img src="https://www.besteljeeten.nl/app/assets/button_bestellen.jpg" border="0" height="61" /></a><a href="https://www.besteljeeten.nl/app/bestellen/9/bestellen//0/bestellen.html"></a><br />
+                                                                                                    <br />                        vandaag voor 14:00 uur besteld binnen 1 dag en in huis<br /><br /></td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                        
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td colspan="3">&nbsp;</td>
+                                                                                </tr>
+                                                                            </table>
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                        </td>
+                                                                    </tr>
+                                                                </table></td>
+                                                        </tr>
+                                                    </table>
+                                                    
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="292">
+                                                    
+                                                    <img src="https://www.besteljeeten.nl/app/assets/footer_app.jpg" width="922" height="125" border="0" usemap="#Map2" />
+                                                    
+                                                </td>
+                                            </tr>
+                                        </table></td>
+                                </tr>
+                            </table>
+                            
+                            
+                            
+                            <map name="Map2" id="Map2">
+                                <area shape="rect" coords="19,23,179,57" href="https://www.besteljeeten.nl/app/index/11/referenties.html" />
+                                <area shape="rect" coords="203,24,534,59" href="https://www.besteljeeten.nl/app/index/2/meestgesteldevragen.html" />
+                                <area shape="rect" coords="557,23,714,60" href="https://www.besteljeeten.nl/app/index/6/disclamier.html" />
+                                <area shape="rect" coords="20,70,144,106" href="https://www.besteljeeten.nl/app/index/4/contact.html" />
+                                <area shape="rect" coords="152,67,474,104" href="https://www.besteljeeten.nl/app/index/5/aanmeldenretaurant.html" />
+                                <area shape="rect" coords="276,186,509,230" href="https://www.besteljeeten.nl/app/" />
+                            </map>
+                            <script type="text/javascript" src="cordova.js"></script>
+                            <script type="text/javascript" src="js/index.js"></script>
+                            </body>
+</html>
+
+
